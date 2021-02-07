@@ -1,8 +1,8 @@
 # File: .github/workflows/repo-sync.yml
 name: sync-ziye12-JavaScript
 on:
-  schedule:
-    - cron: '1 */3 * * *'
+  #schedule:
+    #- cron: '1 */3 * * *'
   workflow_dispatch:
   watch:
     types: started
